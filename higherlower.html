@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="higherlower">
+        <meta name="description" content="A demonstration of HTML, CSS and Javascript">
+        <title>Higher - Lower</title>
+        <link href="styles/higherlower_styles.css" rel="stylesheet">
+        <link rel="icon" href="images/icon1_16x16.png" sizes="16x16" type="image/png"> <!-- Two icons listed to support multiple screen resolutions-->
+        <link rel="icon" href="images/icon1_32x32.png" sizes="32x32" type="image/png">
+    </head>
+
+    <body>
+
+              
+
+        <h1>
+            Higher - Lower
+        </h1>
+
+        <p id="instructions">Guess a number between 1 and n</p>
+
+        <form>
+
+            <div>
+                <label for="yourGuess">Your Guess:</label>
+                <input type="text" id="yourGuess" name="yourGuess" value="">
+            </div>
+
+            <div class="divButtonWrapper">
+                <button type="button" onclick="guessButtonPressed()">Guess</button>
+            </div>
+
+        </form>
+
+        <div class="responseMessage" id="responseMessage"></div>
+
+
+        
+        <script src="scripts/higherlower_script.js"></script>  
+        
+    </body>
+</html>
